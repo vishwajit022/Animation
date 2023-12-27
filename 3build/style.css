@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+@font-face {
+  font-family: "Vish";
+  src: url("./font.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "chiller";
+  src: url("./chiller.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gilroy";
+  src: url("./gilroy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "gilroy", sans-serif;
+  background-color: black;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 30px;
+}
+
+::selection {
+  color: orange;
+}
+
+.nav-2 {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.nav h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main h1 {
+  font-size: 7vw;
+  font-weight: 900;
+  line-height: 110px;
+  width: 80%;
+  margin-left: 15%;
+  z-index: 2;
+}
+
+.main h1 span {
+  font-size: 18vw;
+  font-family: chiller;
+  color: #f900fe;
+}
+
+.main h1 span::selection {
+  color: rgb(112, 5, 112);
+}
+
+.main h1:nth-child(2) {
+  margin-top: 50px;
+  margin-left: 20vw;
+}
+
+.main h1:nth-child(3) {
+  text-align: center;
+}
+
+.main h1:nth-child(4) {
+  text-align: center;
+  font-size: 18vw;
+  font-family: chiller;
+  color: rgb(0, 17, 173);
+}
+
+img {
+  position: absolute;
+  top: 10%;
+  height: 400px;
+  left: 50%;
+  z-index: -1;
+}
+
+.img1 {
+  rotate: 10deg;
+}
+
+.img2 {
+  rotate: -10deg;
+}
+
+.img3 {
+  rotate: 10deg;
+}
+
+.img4 {
+  rotate: -10deg;
+}
+
+.img5 {
+  rotate: 10deg;
+}
+
+.img6 {
+  rotate: -10deg;
+}
